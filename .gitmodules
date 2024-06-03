@@ -1,0 +1,3 @@
+[submodule "BiteBurst"]
+    path = BiteBurst
+    url = https://github.com/Naksh-98/BiteBurst.git
