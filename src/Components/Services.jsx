@@ -1,10 +1,13 @@
 import React from 'react'
-
+import '../Components/Css/Services.css'
 const Services = () => {
   return (
-    <div>
-      <h1>Services</h1>
-    </div>
+    <>
+      <section className='services' id='Services'>
+
+        <h1>Services</h1>
+      </section>
+    </>
   )
 }
 

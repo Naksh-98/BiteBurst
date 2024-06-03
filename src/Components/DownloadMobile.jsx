@@ -1,10 +1,15 @@
 import React from 'react'
+import '../Components/Css/DownloadMobile.css'
 
 const Downloadmobile = () => {
   return (
-    <div>
+    <>
+      <article className='download' id='DownloadMobile'>
       <h1>DownloadMobile</h1>
-    </div>
+
+      </article>
+    </>
+    
   )
 }
 

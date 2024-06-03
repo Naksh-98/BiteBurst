@@ -1,0 +1,95 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Himanshu Singhal:mailto:himanshu.singhal@rattanIndia.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Naksh TP:m
+ ailto:Naksh.tp98@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Naresh Sin
+ gh:mailto:naresh.singh@rattanIndia.com
+DESCRIPTION;LANGUAGE=en-US:\n\n\n__________________________________________
+ ______________________________________\nMicrosoft Teams Need help?<https:/
+ /aka.ms/JoinTeamsMeeting?omkt=en-GB>\nJoin the meeting now<https://teams.m
+ icrosoft.com/l/meetup-join/19%3ameeting_ZDk2YWQ0NGItNmMwMS00MGU1LTk2MWQtNW
+ E5NDE2MmY4ZjNl%40thread.v2/0?context=%7b%22Tid%22%3a%22dd092ba6-a644-489d-
+ 84c4-d65a7c75d9f4%22%2c%22Oid%22%3a%220eeabf04-f941-4177-ae24-3e2e3418cf06
+ %22%7d>\nMeeting ID: 416 994 570 233\nPasscode: fHSyzi\n__________________
+ ______________\nFor organisers: Meeting options<https://teams.microsoft.co
+ m/meetingOptions/?organizerId=0eeabf04-f941-4177-ae24-3e2e3418cf06&tenantI
+ d=dd092ba6-a644-489d-84c4-d65a7c75d9f4&threadId=19_meeting_ZDk2YWQ0NGItNmM
+ wMS00MGU1LTk2MWQtNWE5NDE2MmY4ZjNl@thread.v2&messageId=0&language=en-GB> | 
+ Reset dial-in PIN<https://dialin.teams.microsoft.com/usp/pstnconferencing>
+ \n________________________________________________________________________
+ ________\nThis email communication may contain privileged and confidential
+  information and is intended for the use of the addressee only.If you are 
+ not an intended recipient you are requested not to reproduce\, copy dissem
+ inate or in any manner distribute this email communication as the same is 
+ strictly prohibited. If you have received this email in error\, please not
+ ify the sender immediately by return e-mail and delete the communication s
+ ent in error. Email communications cannot be guaranteed to be secure & err
+ or free and RattanIndia is not liable for any errors in the email communic
+ ation or for the proper\, timely and complete transmission thereof. Rattan
+ India does not accept any liability for virus infected mails.\n
+UID:040000008200E00074C5B7101A82E0080000000067E998DEB294DA01000000000000000
+ 010000000451C2F84C44F3741873DFB77EAFAEE2D
+SUMMARY;LANGUAGE=en-US:Interview - Nakshatra TP
+DTSTART;TZID=India Standard Time:20240423T120000
+DTEND;TZID=India Standard Time:20240423T123000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20240422T124453Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2122626663
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_ZDk2YWQ0NGItNmMwMS00MGU1LTk2MWQtNWE5NDE2MmY4ZjNl%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22dd092ba6-a644-489d-84c4-d65a7c75d9f4%22%2c%22O
+ id%22%3a%220eeabf04-f941-4177-ae24-3e2e3418cf06%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/dd092ba6-a644-489d-84c4-d65a7c75d9f4/0eeabf04-f941-4177-ae24-3
+ e2e3418cf06/19_meeting_ZDk2YWQ0NGItNmMwMS00MGU1LTk2MWQtNWE5NDE2MmY4ZjNl@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_ZDk2YWQ0NGItNmMwMS00MGU
+ 1LTk2MWQtNWE5NDE2MmY4ZjNl@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0\,"ct":null\,"btid":null}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

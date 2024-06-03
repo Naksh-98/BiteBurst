@@ -1,0 +1,7 @@
+.faq{
+    height: 50vh;
+    background-image:url(../Faq.jpg);
+    background-position: center center; /* Center the image */
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}

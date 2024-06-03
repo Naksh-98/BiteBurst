@@ -1,0 +1,11 @@
+
+
+.HomeSection{
+    height: 50vh;
+   
+    background-image: url(../shopping-bag-cart.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
